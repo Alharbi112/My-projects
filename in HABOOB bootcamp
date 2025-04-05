@@ -1,0 +1,27 @@
+                                                Automating Fuzzers
+
+
+
+The target is VLC media player
+
+VLC is an and open source cross-platform multimedia player and framework that plays most multimedia files 
+
+Attack surface on transcode files
+The focus will be directed towards transcode files and we sending unexpected inputs and see what the vlc will do
+Generating  Test Case by Radamsa and go fuzzing by script python
+
+file types uses like (avi,mp4,avo. atc)
+
+
+Fuzzing techniques and tools used
+•	Radamsa 
+•	Script python
+
+
+
+               A demonstration of the final product
+
+    I will attach the python script used in the fuzzing 
+
+ 
+ Each file has its own number so that if this crash occurs, we will know the file that caused the crash
